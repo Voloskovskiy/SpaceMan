@@ -1,0 +1,294 @@
+/*
+Theme Name: Night Club Spaceman
+Theme URI: http://spaceman.ru
+Author: Студия дизайна Proksart
+Author URI: http://proksart.ru
+Version: 2.0
+*/
+
+@import url('../bootstrap/css/bootstrap.min.css');
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,800,500&subset=latin,cyrillic);
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+html {
+	position: relative;
+    min-height: 100%;
+}
+body {
+	background-color: #38294e;
+    font-family: 'Exo 2', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 24px;
+	color: #fff;
+}
+p {
+	font-size: 16px;
+    margin: 0 0 20px;
+}
+
+.gamb{
+color:white;
+	
+	
+	
+}
+.navbar{
+	z-index: 200;
+}
+.gamb i{
+	color:white;
+}
+
+/*     Container     */
+.container-fluid {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.container {	
+    width: 85%;
+}
+.row {
+    margin: 0px;
+}
+.title h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.title p{
+	text-align: center;
+}
+.block {
+	z-index: 300;
+	display: table;
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
+}
+.text {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*      MENU       */
+
+.text-content{
+width: 90%;	
+}
+.footer_menu{	
+	width: 80%;
+	position: absolute;
+	height: 60px;
+	bottom: 0;
+}
+.info{
+	font-size: 24px;
+	color: white;
+	}
+.info:hover{
+	color: white;
+}
+.icon_block p{
+	text-align: center;
+}
+.icon{ 	
+    margin-bottom: 5%;
+}
+.navbar-default{
+	background-color: #38294E;
+}
+/*------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+---------------------------------       MAIN        ----------------------------------
+--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------*/
+
+/*     Home     */
+
+
+
+
+/*     About   */
+
+/*     Services   */
+.img-background {
+	background-size: cover;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	background: url('../img/backgroung.png') no-repeat;
+}
+.text-block {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.text-block-action {
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+	width: 45%;
+	height: 100%;
+}
+.img-background-action {
+	background-size: cover;
+	display: inline-block;
+	width: 25%;
+	
+	height: 25%;
+	
+}
+
+/*     Share     */
+.bid{
+	margin-top: 5px;
+	padding: 10px 30px;
+	border-radius: 8px;
+	border: 1px solid #ed6957;
+	background: #ed6957;
+	
+}
+
+/*     Contacts    */
+
+.adress{	
+	color: white;
+	text-decoration: underline;
+}
+.adress:hover{
+	color: whitesmoke;
+}
+.contact_email{
+	color: white;
+}
+.contact_email:hover{
+	color: white;
+}
+.copyright{
+	margin-top: 150px;
+}
+.site{
+	color: white;
+	text-decoration: underline;
+}
+.site:hover{
+	color: whitesmoke;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+	height: 60px;
+	bottom: 0;
+}
+
+.icon-block{	
+    float: left;    
+    text-align: center;
+    width: 33%;
+   
+}
+
+/*     UI     */
+
+/*     Headers    */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 10px 0;
+	font-family: 'Exo 2', sans-serif;
+	line-height: 2em;
+	color: #fff;
+	text-rendering: optimizelegibility;
+}
+h1 {
+    font-size: 32px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    line-height: 32px;
+    font-weight: 500;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 0 10px;
+    margin: 0;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+
+/*------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+------------------------------     ADAPTIVE     --------------------------------------
+--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1024px) {
+ 
+}
+@media screen and (max-width: 800px) {
+ 
+}
+@media screen and (max-width: 773px) {
+ 
+}
+@media screen and (max-width: 736px) {
+	
+}
+@media screen and (max-width: 667px) {
+    
+}
+@media screen and (max-width: 568px) {
+   
+}
+@media screen and (max-width: 435px) {
+   
+}
+@media screen and (max-width: 425px) {
+   
+}
+@media screen and (max-width: 375px) {
+    
+}
+@media screen and (max-width: 375px) {
+ 
+}
